@@ -13,8 +13,8 @@ function ErrorComponent() {
         </h1>
         <p>
           Some technical issue occurred on our side, contact{" "}
-          <Link href="https://github.com/Ansh-Rathod">
-            <a className="text-[#2bb540] underline">Ansh Rathod</a>
+          <Link href="http://lyra2music.com/">
+            <a className="text-[#2bb540] underline">Lyra</a>
           </Link>{" "}
           Or try to reload the page.
         </p>

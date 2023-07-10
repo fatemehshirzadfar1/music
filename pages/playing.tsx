@@ -6,7 +6,7 @@ function Playing() {
   return (
     <div>
       <Head>
-        <title>{"Musive - Now Playing"}</title>
+        <title>{"Lyra - Now Playing"}</title>
       </Head>
       Hehe LOL you need to figure out by your self!
     </div>

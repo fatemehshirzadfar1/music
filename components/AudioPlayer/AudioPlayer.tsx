@@ -224,7 +224,7 @@ function AudioPlayer({ className }: { className: string }) {
               onClick={(e) => {
                 e.stopPropagation();
                 if (activeSong?.artist_id == 120) {
-                  window.open(`https://anshrathod.com`, "_blank");
+                  window.open(`http://lyra2music.com/`, "_blank");
                 } else {
                   router.push(`/artist/${activeSong?.artist_id}`);
                 }

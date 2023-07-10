@@ -16,7 +16,7 @@ function AppLayout({ children, title, color, onScroll }: any) {
   return (
     <div>
       <Head>
-        <title>{"Musive / " + title}</title>
+        <title>{"Lyra / " + title}</title>
       </Head>
       <div className="font-ProximaRegular text-white bg-[#121212]">
         <div className="flex flex-row h-screen w-screen max-w-full">
@@ -27,20 +27,13 @@ function AppLayout({ children, title, color, onScroll }: any) {
             <Link href="/">
               <div className="flex flex-row items-center px-3 mt-2 select-none cursor-pointer">
                 <div className="mini-laptop:mt-4 relative w-[40px] h-[40px] mini-laptop:w-[30px]">
-                  <Image
-                    src="/logo.jpeg"
-                    layout="fill"
-                    objectFit="contain"
-                    alt="logo"
-                    unoptimized={true}
-                  />
                 </div>
 
                 <h1
                   className="text-center uppercase mx-2 text-md 
                  tracking-wider font-ProximaBold mini-laptop:hidden"
                 >
-                  Musive
+                  Lyra
                 </h1>
               </div>
             </Link>

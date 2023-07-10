@@ -28,7 +28,7 @@ const Home: NextPage = () => {
   const { user } = useSelector((state: any) => state.auth);
 
   const dispatch = useDispatch<any>();
-  const [color, setColor] = useState("#2bb540");
+  const [color, setColor] = useState("#0DAD8D");
 
   useEffect(() => {
     if (user) {

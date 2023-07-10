@@ -117,7 +117,7 @@ const Login: NextPage = () => {
   return (
     <div className="font-ProximaRegular text-white bg-[#000000]">
       <Head>
-        <title>Musive - login</title>
+        <title>Lyra - login</title>
       </Head>
       <div
         className="bg-[url('https://images.unsplash.com/photo-1596300919357-77dbd158c7b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80')] 
@@ -133,24 +133,15 @@ const Login: NextPage = () => {
           flex flex-col items-center bg-black rounded-xl"
           >
             <div className="flex flex-row items-center">
-              <Image
-                priority
-                src="/logo.jpeg"
-                width={40}
-                height={40}
-                alt="logo"
-              />
               <h1
                 className="text-center uppercase mx-2 
               tracking-wider font-ProximaBold"
               >
-                Musive
+                Lyra Music
               </h1>
             </div>
 
-            <h1 className="mobile:text-xl text-3xl w-80 mobile:w-64 mobile:text-center mt-10 font-extrabold font-ProximaBold">
-              Download & listen free music lifetime.
-            </h1>
+            
             {status == AuthStatus.Error && (
               <p
                 className="bg-red-500 border border-red-800 
@@ -170,7 +161,7 @@ const Login: NextPage = () => {
                 </label>
                 <input
                   type="username"
-                  placeholder="anshrathod12@"
+                  placeholder="Lyra"
                   name="username"
                   value={username}
                   onChange={onChange}
@@ -218,8 +209,8 @@ const Login: NextPage = () => {
 
               <button
                 disabled={status == AuthStatus.Loading}
-                className="w-full mt-10  p-2 rounded-3xl bg-[#2bb540] font-ProximaBold
-                uppercase hover:bg-[#289e39] disabled:hover:bg-opacity-20 disabled:bg-opacity-20 disabled:text-gray-300"
+                className="w-full mt-10  p-2 rounded-3xl bg-[#0DAD8D] font-ProximaBold
+                uppercase hover:bg-[#0DbD8D] disabled:hover:bg-opacity-20 disabled:bg-opacity-20 disabled:text-gray-300"
                 type="submit"
               >
                 {status == AuthStatus.Loading ? (
@@ -234,7 +225,7 @@ const Login: NextPage = () => {
               >
                 not have an account?{" "}
                 <Link href="/register">
-                  <span className="cursor-pointer text-[#2bb540] font-ProximaBold tracking-widest">
+                  <span className="cursor-pointer text-[#0DAD8D] font-ProximaBold tracking-widest">
                     register
                   </span>
                 </Link>

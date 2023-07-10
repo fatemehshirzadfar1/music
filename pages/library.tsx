@@ -14,7 +14,7 @@ function Library() {
   };
 
   return (
-    <AppLayout title="Your Library" color="#2bb540" onScroll={onScroll}>
+    <AppLayout title="Your Library" color="#0DAD8D" onScroll={onScroll}>
       <NavBar
         condition={srcollPosition >= 200}
         color="#333333"

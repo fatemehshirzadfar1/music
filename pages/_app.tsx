@@ -18,13 +18,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="preload"
-          href="/musive-icons.ttf"
-          as="font"
-          crossOrigin=""
-          type="font/ttf"
-        />
-        <link
-          rel="preload"
           href="/ProximaNova/Proxima Nova Reg.otf"
           as="font"
           crossOrigin=""

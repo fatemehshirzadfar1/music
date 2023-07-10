@@ -11,9 +11,9 @@ const tracks: TrackProps[] = [
     cover_image: {
       url: "https://images.unsplash.com/photo-1611339555312-e607c8352fd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
 
-      color: "#2bb540",
+      color: "#0DAD8D",
     },
-    artist_name: "Ansh Rathod",
+    artist_name: "Lyra",
     artist_id: 120,
   },
 ];
