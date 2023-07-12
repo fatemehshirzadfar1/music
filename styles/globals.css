@@ -11,6 +11,13 @@
   src: url("../public/ProximaNova/Proxima Nova Bold.otf");
 }
 
+@font-face {
+  font-family: "musive-icons";
+  src: url("../public/musive-icons.ttf?x716ww") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 
 
 i {
